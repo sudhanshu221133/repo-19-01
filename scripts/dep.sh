@@ -1,5 +1,5 @@
 #!/bin/bash
 sudo su
-apt update -y
-apt-get install -y apache2 
-service apache2 start
+sudo apt update -y
+sudo apt-get install -y apache2
+rm /var/www/html/index.html 
